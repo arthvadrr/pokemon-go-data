@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 0.8rem;
+    font-family: 'SF Pro', sans-serif, monospace;
 }
 
 table {
