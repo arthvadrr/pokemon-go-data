@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100vw;
+}
+
+table th,
+table td {
+    padding: 0.5rem 0.25rem;
+    margin: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+table th {
+    padding: 1rem 0.25rem;
+    margin: 1px;
+    box-shadow: inset 0 0 1px 0 #000;
+    cursor: pointer;
+}
+
+table th:hover,
+table th:active {
+    background-color: #fadf;
+}
+
+table thead {
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #000;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
